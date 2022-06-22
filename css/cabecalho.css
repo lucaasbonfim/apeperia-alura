@@ -38,3 +38,12 @@
 .cabecalho__link:hover {
     color: darkcyan;
 }
+
+@media screen and (min-width: 1024px) {
+    .cabecalho {
+        flex-direction: row;
+        justify-content: space-between;
+
+        border: none;;
+    }
+}

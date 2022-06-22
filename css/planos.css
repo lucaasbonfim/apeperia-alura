@@ -105,19 +105,40 @@
     border-color: var(--planos-cartao-mega);
 }
 
+.cartao--start:hover {
+    border: 5px solid var(--planos-cartao-start);
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.cartao--mega:hover {
+    border: 5px solid var(--planos-cartao-mega);
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.cartao--ultra:hover {
+    border: 5px solid var(--planos-cartao-ultra);
+    border-radius: 10px;
+    transition: 400ms;
+}
+
 .cartao__botao--start:hover {
     background-color: var(--planos-cartao-start);
     color: var(--branco);
+    transition: 400ms;
 }
 
 .cartao__botao--ultra:hover {
     background-color: var(--planos-cartao-ultra);
     color: var(--branco);
+    transition: 400ms;
 }
 
 .cartao__botao--mega:hover {
     background-color: var(--planos-cartao-mega);
     color: var(--branco);
+    transition: 400ms;
 }
 
 @media screen and (min-width:768px) {
